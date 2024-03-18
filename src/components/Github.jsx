@@ -13,7 +13,7 @@ const Github = () => {
         <div className="line"></div>
       </div>
       <div className="table" data-aos="fade-up" data-aos-delay="200">
-        <GitHubCalendar username="iamalaziz" />
+        <GitHubCalendar username="Jay-Khakim" />
       </div>
     </section>
   );

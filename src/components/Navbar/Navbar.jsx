@@ -1,5 +1,5 @@
 import pdf from '../../assets/resume.pdf';
-import Photo from '../../assets/photo.jpg';
+import Photo from '../../assets/photo1.jpg';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import './_Navbar.scss';
 import { Link } from 'react-router-dom';
@@ -29,7 +29,7 @@ const Navbar = ({ navbar, setNavbar }) => {
         <div className="logo" data-aos="fade-down">
           <img src={Photo} alt="my_image" />
           <p>
-            ADAM
+            JAY
           </p>
         </div>
         <div className="nav">
