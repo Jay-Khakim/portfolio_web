@@ -1,110 +1,114 @@
-import img1 from '../assets/1.png';
-import img2 from '../assets/2.png';
-import img3 from '../assets/3.png';
-import img4 from '../assets/4.png';
+import img1 from "../assets/uzbru.png";
+import img2 from "../assets/promptopia.png";
+import img3 from "../assets/3d_portfolio.png";
+import img4 from "../assets/apex.png";
 
-import { MdOutlineVideoSettings } from 'react-icons/md';
-import { FiGithub } from 'react-icons/fi';
+import { MdOutlineVideoSettings } from "react-icons/md";
+import { FiGithub } from "react-icons/fi";
 
 const projects = [
-  {
-    id: 1,
-    repStatus: 'Public Respository',
-    imgLink: img1,
-    title: 'WebTech',
-    desc: 'A website to represent Software Development company. I am currently crafting this project.',
-    tools: ['React JS', 'Styled Components', 'sass'],
-    githubLink: 'http://github.com/iamalaziz',
-    websiteLink: 'http://webtech-v1.vercel.app/',
-  },
-  {
-    id: 2,
-    repStatus: 'Public Respository',
-    imgLink: img2,
-    title: 'Math Expert',
-    desc: 'A platform where you can train math skills and compete with other people in leaderboard.',
-    tools: ['React JS', 'scss', 'Express', 'API'],
-    githubLink: 'https://github.com/iamalaziz/math-expert',
-    websiteLink: '',
-  },
-  {
-    id: 3,
-    repStatus: 'Private Respository',
-    imgLink: img3,
-    title: 'APEXMALL - Ecommerce Website',
-    desc: 'This is an ecommerce website with enough functionalities including orders, products, users and admins.',
-    tools: ['React JS', 'Express', 'Node', 'MongoDB'],
-    githubLink: 'http://github.com/iamalaziz',
-    websiteLink: 'https://apex-mall.onrender.com/',
-  },
-  {
-    id: 4,
-    repStatus: 'Private Respository',
-    imgLink: img4,
-    title: 'Calculator',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi earum delectus, ipsum est tempore debitis eaque consectetur expedita',
-    tools: ['React JS', 'TypeScript', 'Vite'],
-    githubLink: 'https://github.com/iamalaziz/minesweeper-react-ts',
-    websiteLink: '',
-  },
+	{
+		id: 1,
+		repStatus: "Public Respository",
+		imgLink: img1,
+		title: "Uzbru.com",
+		desc: "A website to represent Uzbekistan Business Development Association.",
+		tools: ["PHP7", "Laravel", "BackPack", "MySQL"],
+		githubLink: "https://github.com/Jay-Khakim/uzbru",
+		websiteLink: "https://uzbru.com/en",
+	},
+	{
+		id: 2,
+		repStatus: "Public Respository",
+		imgLink: img2,
+		title: "Prompttopia",
+		desc: "A website made in Next JS, including CRUD operations",
+		tools: ["Next JS", "TailwindCSS", "Next API", "Google OAUTH", "SSR"],
+		githubLink: "https://github.com/Jay-Khakim/share-promts",
+		websiteLink:
+			"https://share-promts-ld75-iqam0ogk4-jaykhakims-projects.vercel.app/",
+	},
+	{
+		id: 3,
+		repStatus: "Public Respository",
+		imgLink: img3,
+		title: "3D Profolio",
+		desc: "ThreeJS 3D Developer Portfolio",
+		tools: ["React JS", "ThreeJS ", "TailwindCSS", "Framer Motion", "EmailJS"],
+		githubLink: "https://github.com/Jay-Khakim/3d_portfolio",
+		websiteLink: "",
+	},
+	{
+		id: 4,
+		repStatus: "Public Respository",
+		imgLink: img4,
+		title: "Apex Mall",
+		desc: "An E-commerce website, with admin panel, several lavels of user authentication and more features",
+		tools: [
+			"React JS",
+			"Redux",
+			"Node JS",
+			"Express JS",
+			"bcryptjs",
+			"MongoDB",
+			"jsonwebtoken"
+		],
+		githubLink: "https://github.com/Jay-Khakim/proshop",
+		websiteLink: "https://apex-mall.onrender.com/",
+	},
 ];
 
 const Projects = () => {
-  return (
-    <section className="projects" id="projects">
-      <h1 className="section-title" data-aos="fade-up">
-        <span>03. </span>Projects
-      </h1>
-      <div className="container">
-        <ul>
-          {projects.map(
-            ({
-              id,
-              repStatus,
-              imgLink,
-              title,
-              desc,
-              tools,
-              githubLink,
-              websiteLink,
-            }) => {
-              return (
-                <li key={id} data-aos="zoom-in">
-                  <div className="description">
-                    <p className="status">{repStatus}</p>
-                    <h3>{title}</h3>
-                    <p className="desc-text">{desc}</p>
-                    <div className="tools">
-                      {tools.map((i, id) => {
-                        return <p key={id}>{i}</p>;
-                      })}
-                    </div>
-                    <div className="project-links">
-                      <a
-                        href={websiteLink}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <MdOutlineVideoSettings />
-                      </a>
-                      <a
-                        href={githubLink}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <FiGithub />
-                      </a>
-                    </div>
-                  </div>
-                  <img src={imgLink} alt="projectImage" />
-                </li>
-              );
-            }
-          )}
-        </ul>
-      </div>
-    </section>
-  );
+	return (
+		<section className="projects" id="projects">
+			<h1 className="section-title" data-aos="fade-up">
+				<span>03. </span>Projects
+			</h1>
+			<div className="container">
+				<ul>
+					{projects.map(
+						({
+							id,
+							repStatus,
+							imgLink,
+							title,
+							desc,
+							tools,
+							githubLink,
+							websiteLink,
+						}) => {
+							return (
+								<li key={id} data-aos="zoom-in">
+									<div className="description">
+										<p className="status">{repStatus}</p>
+										<h3>{title}</h3>
+										<p className="desc-text">{desc}</p>
+										<div className="tools">
+											{tools.map((i, id) => {
+												return <p key={id}>{i}</p>;
+											})}
+										</div>
+										<div className="project-links">
+											{websiteLink && (
+												<a href={websiteLink} target="_blank" rel="noreferrer">
+													<MdOutlineVideoSettings />
+												</a>
+											)}
+
+											<a href={githubLink} target="_blank" rel="noreferrer">
+												<FiGithub />
+											</a>
+										</div>
+									</div>
+									<img src={imgLink} alt="projectImage" />
+								</li>
+							);
+						}
+					)}
+				</ul>
+			</div>
+		</section>
+	);
 };
 
 export default Projects;
