@@ -2,6 +2,8 @@ import img1 from "../assets/uzbru.png";
 import img2 from "../assets/promptopia.png";
 import img3 from "../assets/3d_portfolio.png";
 import img4 from "../assets/apex.png";
+import img5 from "../assets/myldb.png";
+import img6 from "../assets/uzbekmart.png";
 
 import { MdOutlineVideoSettings } from "react-icons/md";
 import { FiGithub } from "react-icons/fi";
@@ -16,6 +18,46 @@ const projects = [
 		tools: ["PHP7", "Laravel", "BackPack", "MySQL"],
 		githubLink: "https://github.com/Jay-Khakim/uzbru",
 		websiteLink: "https://uzbru.com/en",
+	},
+
+	{
+		id: 6,
+		repStatus: "Public Respository",
+		imgLink: img6,
+		title: "Uzbekmart.com",
+		desc: "A platform for B2B trading between Uzbek and International interpreneurs. ",
+		tools: [
+			"PHP7",
+			"Laravel7",
+			"MySQL",
+			"Apache",
+			"BackPack",
+			"Localisation",
+			"SearchingEngine"
+		],
+		githubLink: "https://github.com/Jay-Khakim/uzbekmart",
+		websiteLink: "",
+	},
+
+	{
+		id: 5,
+		repStatus: "Public Respository",
+		imgLink: img5,
+		title: "My LDB (My Library Data Base)",
+		desc: "This app can be used for online library management, for collecting books DB, noting quotes from books, managing book borrowings, lendings. Moreover, it can be useful for keeping up what kind of books user have been finished and for setting goals and working with them",
+		tools: [
+			"React JS",
+			"React-bootstrap",
+			"Redux",
+			"Node JS",
+			"Express JS",
+			"bcryptjs",
+			"MongoDB",
+			"jsonwebtoken",
+			"PayPal API"
+		],
+		githubLink: "https://github.com/Jay-Khakim/myldb",
+		websiteLink: "",
 	},
 	{
 		id: 2,
@@ -56,6 +98,9 @@ const projects = [
 		githubLink: "https://github.com/Jay-Khakim/proshop",
 		websiteLink: "https://apex-mall.onrender.com/",
 	},
+	
+
+	
 ];
 
 const Projects = () => {
