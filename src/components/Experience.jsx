@@ -66,7 +66,7 @@ const Experience = () => {
 					</div>
 					<div className={`content ${activeTab === 1 ? "active" : ""}`}>
 						<h3>
-							<em>Back-end Developer | Full-time</em>
+							Back-end Developer | Full-time
 						</h3>
 						<h5>Oct 2020 - Apr 2021</h5>
 						<p>
@@ -93,7 +93,7 @@ const Experience = () => {
 
 					<div className={`content ${activeTab === 3 ? "active" : ""}`}>
 						<h3>
-							<em>Product Manager | Part-time</em>
+							Product Manager | Part-time
 						</h3>
 						<h5>Nov 2021 - Aug 2022</h5>
 						<p>
