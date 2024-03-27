@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../../assets/resume.pdf';
+import pdf from '../../assets/jay_CV.pdf';
 import { IoCloseSharp } from 'react-icons/io5';
 
 const navLinks = [
