@@ -1,4 +1,4 @@
-import pdf from '../../assets/jay_CV.pdf';
+import pdf from '../../assets/jay_cv_2.pdf';
 import Photo from '../../assets/photo1.jpg';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import './_Navbar.scss';
