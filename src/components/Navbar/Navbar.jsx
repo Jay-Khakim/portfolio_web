@@ -50,7 +50,7 @@ const Navbar = ({ navbar, setNavbar }) => {
           </ul>
           <button>
             {/* <Link to={pdf} target="_blank" rel="noopener noreferrer"> */}
-            <a href="https://docs.google.com/document/d/19afy0W4P4QHPsywesMvcfDSgumdWeqMtLQarZBiA9iQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/drive/folders/1QwLTDUDXJhoDidBC5on4J7nWhP0h31qh?usp=sharing" target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </button>

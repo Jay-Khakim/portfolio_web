@@ -35,8 +35,8 @@ const SideLinks = () => {
         })}
       </ul>
       <div className="email" data-aos="fade-up" data-aos-delay="1000">
-        <a href="mailto:mgmediajay@gmail.com">
-          mgmediajay@gmail.com
+        <a href="mailto:khakim.dev@gmail.com">
+          khakim.dev@gmail.com
         </a>
       </div>
     </Fragment>

@@ -17,7 +17,7 @@ const Experience = () => {
 					<button
 						className={activeTab === 1 ? "active" : null}
 						onClick={() => toggleTab(1)}>
-						Uzbekistan Exporters Association
+						Webtech
 					</button>
 					<button
 						className={activeTab === 2 ? "active" : null}
@@ -27,7 +27,7 @@ const Experience = () => {
 					<button
 						className={activeTab === 3 ? "active" : null}
 						onClick={() => toggleTab(3)}>
-						Webtech
+						Uzbekistan Exporters Association
 					</button>
 				</div>
 				<div className="detail">
@@ -64,7 +64,7 @@ const Experience = () => {
 							to align technology initiatives with business needs
 						</p>
 					</div>
-					<div className={`content ${activeTab === 1 ? "active" : ""}`}>
+					<div className={`content ${activeTab === 3 ? "active" : ""}`}>
 						<h3>
 							Back-end Developer | Full-time
 						</h3>
@@ -91,7 +91,7 @@ const Experience = () => {
 						<p>Experienced with building SPA, CRM, E-commerce platforms.</p>
 					</div>
 
-					<div className={`content ${activeTab === 3 ? "active" : ""}`}>
+					<div className={`content ${activeTab === 1 ? "active" : ""}`}>
 						<h3>
 							Product Manager | Part-time
 						</h3>
